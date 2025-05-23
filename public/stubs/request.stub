@@ -1,0 +1,23 @@
+<?php namespace {{namespace}};
+use App\Abstracts\EntityValidator;
+use App\Interfaces\ValidationInterface;
+
+class {{modelName}}Validator extends EntityValidator implements ValidationInterface
+{
+    /**
+     * Validation for creating a new Object
+     *
+     * @var array
+     */
+    {{rules}}
+    
+    /**
+     * Messages for creating a new Object
+     *
+     * @var array
+     */
+    public function messages(){
+        {{messages}}
+    }
+    
+}

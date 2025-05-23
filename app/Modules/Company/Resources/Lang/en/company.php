@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'title'=>'Companies', 
+    'newOne'=>'Add New Company', 
+    'form' => [
+        'status' => 'Status',
+        'name_ar' => 'Name Ar',
+        'name_en' => 'Name En',
+        'active' => 'Active',
+        'notActive' => 'Not Active',
+        'category' => 'Category',
+        'location' => 'Locations',
+        'email' => 'E-Mail',
+        'phone' => 'Phone',
+        'basic_data' => 'Basic Data',
+        'contact_info' => 'Contact Info',
+        'social_links' => 'Social Links',
+        'description_ar' => 'Description Ar',
+        'description_en' => 'Description En',
+        'whatsapp' => 'Whatsapp',
+        'website' => 'Website',
+        'facebook' => 'Facebook URL',
+        'twitter' => 'Twitter URL',
+        'instagram' => 'Instagram URL',
+        'linkedin' => 'Linked In URL',
+        'rate' => 'Rate',
+        'views' => 'Views',
+    ],
+];
